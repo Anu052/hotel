@@ -1,0 +1,479 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.head{
+    display: flex;
+    align-items: center;
+     justify-content: space-around;
+    color: white;
+    text-align: center;
+    position:sticky;
+}
+.logo{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    animation: jaadu 2s infinite linear;
+}
+header{
+background-color: gray;
+}
+.header ul{
+display: flex;
+list-style: none;
+}
+.header ul li{
+    padding: 5px 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header ul li a{
+    padding: 10px 7px;
+    text-decoration: none;
+    color: white;
+}
+.header ul li a:hover{
+  background-color: white;
+  color: black;
+}
+.section-1{
+    height: 100vh;
+}
+.section-1::before{
+    position: absolute;
+    content: "";
+    background-image:url("https://th.bing.com/th/id/R42181cbd4a761d76f557f73faf1c3b50?rik=Bbj3oDTPiikhCw&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2017%2f04%2fHotel-Photos.jpg&ehk=cbShwJXsLE%2b%2bKlBXNVTQNEZJCgA0B601cVfDMs3v%2fks%3d&risl=&pid=ImgRaw");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;  
+}
+.section-2{
+    height:700px;
+    background-color: yellow;
+}
+.section-2 h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+article{
+    text-align: center;
+    font-size: 20px;
+    padding:30px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin-right: 5px;
+}
+.cards1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    margin-right: 5px;
+}
+.cards-item{
+    padding: 30px;
+}
+.cards-item h3{
+    font-size: 25px;
+    cursor: pointer;
+}
+.cards-item h3:hover{
+  animation: hover 1s 1 linear;
+}
+.section-3{
+    height: 700px;
+    background-color: rgb(42 40 40);
+}
+.section-3 h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.section-3 h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.section-3 p{
+    color: white;
+    text-align: center;
+}
+.f2 p{
+    padding: 50px;
+}
+.conso{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 .f1 img{
+    display: block;
+    width: 500px;
+}
+.section-3 .f1 img:hover{
+    cursor: pointer;
+    animation: hover1 1s 1 linear;
+}
+.section-4{
+    height: 500px;
+}
+.section-4::before{
+    position: absolute;
+    content: "";
+    background-image: url("https://cdn.dribbble.com/users/107759/screenshots/1418503/logo-animation.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   z-index: -1;
+}
+.section-4 .contant{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-4 h3{
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    padding: 10px;
+}
+.section-4 h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.section-4 p{
+    text-align: center;
+    padding: 20px 220px;
+    color: white;
+}
+.section-4 button{
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 20px 40px;
+}
+.section-4 button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.section-5{
+    height: 500px;
+    background-color: #c3596b;
+}
+.section-5 h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+}
+.fio p{
+    text-align: center;
+    color: white;
+}
+.car{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+.car-item{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    color: white;
+}
+.car-item p{
+    border:2px solid white;
+    padding: 25px;
+    border-radius: 15px;
+}
+.conte1{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.conte1 img{
+    border: 2px solid #ffbbf7;
+    border-radius: 60px;
+}
+.conte1 img:hover{
+  cursor: pointer;
+  animation: hover1 1s 1 linear;
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.section-6{
+    height: auto;
+    background-color: rgb(31, 29, 29);
+    border: 0.1px solid rgb(31, 29, 29);
+}
+.section-6 h1{
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.cards{
+    height: auto;
+}
+.cards-item1{
+    margin-top: 20px;
+    padding: 60px;
+    margin: 14px;
+    line-height: 40px;
+    background-color: white;
+    color: black;
+}
+.cards-item1:hover{
+    cursor: pointer;
+  animation: box 1s 1 linear;
+}
+.cards-item1 h1{
+    color: black;
+    font-size: 30px;
+}
+#n img{
+width: 95px;
+display: block;
+}
+.section-7{
+    height: 800px;
+    border: 0.1px solid rgb(31, 29, 29);
+}
+.section-7::before{
+    position: absolute;
+content: "";
+background-image: url("https://static.vecteezy.com/system/resources/previews/000/543/497/original/futuristic-green-world-map-abstract-technology-background-digital-transformation-and-big-data-concept-business-quantum-internet-network-communication-concept-vector-illustration.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+width: 100%;
+z-index: -1;
+}
+.section-7 h1{
+    text-align: center;
+    padding: 30px;
+}
+.section-7 form input{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 580px;
+padding-left: 10px;
+margin: 5px;
+}
+ button{
+    padding:10px 60px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(54, 179, 54);
+}
+.form{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin:160px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    background-color: yellow;
+    padding: 30px;
+    
+}
+textarea{
+    margin: 5px;
+    padding: 10px;
+}
+#col{
+    padding-right: 578px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+@keyframes jaadu {
+    0%{
+        color:blue;
+      }
+      50%{
+        color:red;
+      }
+      100%{
+        color: orange;
+      }
+}
+@keyframes hover {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+@keyframes hover1 {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+@keyframes box {
+    from{
+        transform: scale(1);  
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+@media (max-width:1200px) {
+    .cards{
+        flex-direction: column;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .header ul{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .header ul li{
+        padding: 5px 3px;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    .cards{
+        padding: 10px;
+    }
+    .cards1{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .section-2{
+        height: 1500px;
+    }
+    .section-7 form input{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 90px;
+        padding-left: 10px;
+        margin: 5px;
+    }
+    #col{
+         padding-right: 100px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-2 h1{
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+    article{
+        text-align: center;
+        font-size: 15px;
+        padding:20px;
+    }
+    .cards-item{
+        padding: 20px;
+    }
+    .cards-item h3{
+        margin-bottom: 7px;
+        font-size: 1rem;
+    }
+    
+    .car{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-3 h1{
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+    .section-3 .f1 img{
+        display: block;
+        width: 250px;
+      
+    }
+    .f2 h3{
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .f2 p{
+        padding: 10px;
+    }
+    .section-5{
+        height: auto;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .conso{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section-4{
+        height: auto;
+    }
+    .section-4 h3{
+        margin-top: 50px;
+    }
+    .form{
+        width: 100%;
+    }
+    .section-2{
+        height: auto;
+    }
+    .section-4 button{
+        padding: 10px 20px;
+    }
+    .contant h1{
+        font-size: 25px;
+    }
+    .contant h3{
+        font-size: 17px;
+    }
+    .contant p{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+      
+}
